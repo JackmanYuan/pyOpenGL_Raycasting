@@ -2,6 +2,8 @@
 
 This project is a basic raycasting example for a 2D top-down map, with a player controlled via the arrow keys. The player can rotate left and right, move forward and backward, while rays are cast to simulate the player's view. The project uses OpenGL for rendering and GLFW for window management and input handling.
 
+<img src="image.png" alt="drawing" height="300"/>
+
 ## Controls
 
 - **Up Arrow**: Move forward
