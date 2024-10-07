@@ -13,7 +13,7 @@ This project is a basic raycasting example for a 2D top-down map, with a player 
 
 ## Project Structure
 
-- `main_opengl_2d_simulation.py`: The main entry point for the application. Initializes the window, sets up the map and player, and runs the main rendering loop.
+- `main_opengl_2d_simulator.py`: The main entry point for the application. Initializes the window, sets up the map and player, and runs the main rendering loop.
 - `player.py`: Defines the `Player` class, which handles player movement, rotation, collision detection, and rendering the player on the 2D map.
 - `map.py`: Defines the `Map` class, which holds the 2D grid structure of the map and renders the map to the screen.
 - `ray.py`: Defines the `Ray` class, which casts rays from the player's position to simulate vision and detects intersections with walls.
@@ -33,5 +33,5 @@ This project is a basic raycasting example for a 2D top-down map, with a player 
 
 2. Run the project:
     ```bash
-    python main_opengl_2d_simulation.py
+    python main_opengl_2d_simulator.py
     ```
